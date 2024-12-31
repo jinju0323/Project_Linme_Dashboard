@@ -1,0 +1,19 @@
+# node_modules(의존성 파일) 폴더 무시
+node_modules/
+
+# VSCode 설정 폴더 무시
+.vscode/
+
+# macOS에서 생성되는 파일 무시
+.DS_Store
+
+
+# .yarn 폴더 내 모든 파일을 제외
+.yarn/*
+# Git에서 추적하도록 허용
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
