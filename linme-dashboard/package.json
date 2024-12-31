@@ -2,7 +2,7 @@
   "name": "linme-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/dashboard",
+  "proxy": "http://localhost:80",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
     "@testing-library/jest-dom": "^5.14.1",
